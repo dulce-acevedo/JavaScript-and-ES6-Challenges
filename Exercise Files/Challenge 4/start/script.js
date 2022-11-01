@@ -10,8 +10,9 @@ var a = 5,
   b = 10;
 
 if (b > a) {
+  var c = 2;
   c = a + b + c;
-  let c = 2;
+  
   console.log(c);
   // BEFORE: Uncaught ReferenceError: c is not defined
   // AFTER: 17
